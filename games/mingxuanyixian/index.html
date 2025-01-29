@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=480,user-scalable=yes,uc-user-scalable=yes,target-densitydpi=high-dpi"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+     <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script language="javascript" type="text/javascript" src="jj.js"></script>
+    <script language="javascript" type="text/javascript" src="min.js"></script>
+    <title>鲁虺微信小游戏 http://weixin.luhui.net 新疆微电影微信小游戏</title>
+<style>
+	body{margin:0px; background-color:#434243; color:#6A6A6A;}
+	.bandiv{float:left; width:100%; background-color:#DBD1BB;}
+		.bandiv div{padding:10px; text-align:left;}
+</style>
+</head>
+<body onload="main()" lang="http://weixin.luhui.net/weixin/" id="0">
+<div style="text-align:center;">
+	<canvas id="jsGameScreen"> 
+	</canvas> 
+</div>
+
+		<script language=javascript>
+		var mebtnopenurl = 'http://mp.weixin.qq.com/s?__biz=MzA3NDAzMDM1NQ==&mid=206737323&idx=1&sn=1262b615aef64af4349a9a76f92df7d6&scene=18#rd';
+		window.shareData = {
+		        "imgUrl": "./1.png",
+		        "timeLineLink": "http://weixin.luhui.net/weixin/games/mingxuanyixian/",
+		        "tTitle": "命悬一线-鲁虺微信小游戏小游戏",
+		        "tContent": "用绳命在玩的游戏"
+		};
+		
+		
+		function dp_submitScore(m,t){
+			if(t>1000){
+				alert("不错哦！得了"+t+"分！");
+				dp_share(t);
+			}
+		}
+		
+		function dp_share(t){
+			document.title = t+"分！吓死我了，玩完这个《命悬一线》我得了恐高症！鲁虺微信小游戏小游戏";
+			document.getElementById("share").style.display="";
+			window.shareData.tTitle = document.title;
+		}
+		function dp_Ranking(){
+			//alert("到更多");
+			window.location=mebtnopenurl;
+		}
+
+		function showAd(){
+		}
+		function hideAd(){
+		}
+		document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+		    
+		    WeixinJSBridge.on('menu:share:appmessage', function(argv) {
+		        WeixinJSBridge.invoke('sendAppMessage', {
+		            "img_url": window.shareData.imgUrl,
+		            "link": window.shareData.timeLineLink,
+		            "desc": window.shareData.tContent,
+		            "title": window.shareData.tTitle
+		        }, function(res) {
+		        	document.location.href = mebtnopenurl;
+		        })
+		    });
+
+		    WeixinJSBridge.on('menu:share:timeline', function(argv) {
+		        WeixinJSBridge.invoke('shareTimeline', {
+		            "img_url": window.shareData.imgUrl,
+		            "img_width": "640",
+		            "img_height": "640",
+		            "link": window.shareData.timeLineLink,
+		            "desc": window.shareData.tContent,
+		            "title": window.shareData.tTitle
+		        }, function(res) {
+		        	document.location.href = mebtnopenurl;
+		        });
+		    });
+		}, false);
+		</script>
+
+
+<div id='share' style="display:none">
+
+</div>
+
+<script  type="text/JavaScript">
+window.shareData={
+  'title':'命悬一线',
+  'link':'http://weixin.luhui.net/weixin/games/mingxuanyixian/',
+  'imgurl':'http://weixin.luhui.net/weixin/games/mingxuanyixian/icon.png'
+}
+window.shareFriendData={
+  'title':'命悬一线',
+  'content':'关注鲁虺微信小游戏,更多好玩的游戏等着你。',
+  'link':'http://weixin.luhui.net/weixin/games/mingxuanyixian/',
+  'imgurl':'http://weixin.luhui.net/weixin/games/mingxuanyixian/icon.png'
+}
+</script>
+
+<div style="display:none"> <script src="http://s11.cnzz.com/z_stat.php?id=610720&web_id=610720" language="JavaScript"></script> </div></body> 
+</html>

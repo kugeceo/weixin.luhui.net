@@ -1,0 +1,108 @@
+{"frames": [
+
+{
+	"filename": "icon1.png",
+	"frame": {"x":2,"y":180,"w":150,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":161},
+	"sourceSize": {"w":150,"h":161}
+},
+{
+	"filename": "icon2.png",
+	"frame": {"x":154,"y":333,"w":150,"h":151},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":150,"h":151},
+	"sourceSize": {"w":150,"h":161}
+},
+{
+	"filename": "icon3.png",
+	"frame": {"x":306,"y":180,"w":148,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":7,"w":148,"h":147},
+	"sourceSize": {"w":150,"h":161}
+},
+{
+	"filename": "icon4.png",
+	"frame": {"x":154,"y":180,"w":150,"h":151},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":150,"h":151},
+	"sourceSize": {"w":150,"h":161}
+},
+{
+	"filename": "icon5.png",
+	"frame": {"x":2,"y":343,"w":150,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":150,"h":153},
+	"sourceSize": {"w":150,"h":161}
+},
+{
+	"filename": "logo.png",
+	"frame": {"x":2,"y":2,"w":337,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":337,"h":176},
+	"sourceSize": {"w":341,"h":178}
+},
+{
+	"filename": "particle_glow.png",
+	"frame": {"x":963,"y":2,"w":34,"h":34},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":8,"w":34,"h":34},
+	"sourceSize": {"w":50,"h":50}
+},
+{
+	"filename": "play_down.png",
+	"frame": {"x":456,"y":207,"w":228,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":228,"h":99},
+	"sourceSize": {"w":250,"h":121}
+},
+{
+	"filename": "play_normal.png",
+	"frame": {"x":456,"y":92,"w":238,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":4,"w":238,"h":113},
+	"sourceSize": {"w":250,"h":121}
+},
+{
+	"filename": "play_over.png",
+	"frame": {"x":306,"y":329,"w":250,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":121},
+	"sourceSize": {"w":250,"h":121}
+},
+{
+	"filename": "progressbar_1.png",
+	"frame": {"x":341,"y":47,"w":620,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":620,"h":43},
+	"sourceSize": {"w":620,"h":43}
+},
+{
+	"filename": "progressbar_2.png",
+	"frame": {"x":341,"y":2,"w":620,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":620,"h":43},
+	"sourceSize": {"w":620,"h":43}
+}],
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "preloader_atlas.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:624cd3736aeae9249c17fb01e8e6925c$"
+}
+}
